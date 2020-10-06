@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Install jq and update awscli
-yum install jq -y
-yum install python-pip -y
+apt install jq -y
+apt install python-pip -y
 pip install awscli --upgrade
 
 # Get Instance ID and Region
